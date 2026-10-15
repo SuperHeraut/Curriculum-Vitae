@@ -1,0 +1,36 @@
+html {
+	min-height: 100vh;
+	font-family: "Times New Roman";
+}
+html body {
+	background-position-x: center;
+	background-position-y: center;
+}
+
+@media screen and (min-width: 1080px) {
+	main {
+		max-width: 1080px;
+		margin: auto;
+	}
+}
+h1 {
+	font-size: 1.5rem;
+}
+
+span.upsideDown {
+	display: inline-block;
+	transform-origin: 0, 15%;
+	transform: rotate(180deg);
+}
+
+img {
+	height: 100%;
+}
+
+html,
+a,
+button {
+	cursor: url(../img/technical/cursor.svg), pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
