@@ -42,6 +42,7 @@ let style;
 
 // II.1 preset values
 lang = "zxx"; //define it ðyself
+i=0;
 
 HTML.setAttribute("lang", lang);
 
@@ -67,6 +68,8 @@ MODE.setAttribute("href", "../css/" + style + ".css");
 
 modePic = document.createElement("img");
 modePic.setAttribute("src", "../img/technical/" + modeInner + ".svg");
+
+modeButton = document.createElement("button");
 modeButton.setAttribute("onclick", "nightmode()");
 modeButton.append(modePic);
 
@@ -94,7 +97,6 @@ const nightmode = () => {
 	};
 	modePic.setAttribute("src", "../img/technical/" + modeInner + ".svg");
 	MODE.setAttribute("href", "../css/" + style + ".css");
-	// LOGO.setAttribute("src", "../img/technical/" + logoMode + "logo.svg");
 };
 
 // IV main components
@@ -130,10 +132,8 @@ if(localStorage.getItem("LSmode", mode) == "0" ||
 // IV.2.a navbar
 
 HEADER.appendChild(NAVBAR);
-NAVBAR.appendChild(MENULIST);
-modeButton = document.createElement("button");
 HEADER.append(modeButton);
-i=0;
+NAVBAR.appendChild(MENULIST);
 
 while (i<2){
 	const LISTITEM = document.createElement("li");
@@ -147,7 +147,7 @@ while (i<2){
 } 
 
 // IV.3 footer
-FTR.setAttribute("src", "./js/footer.js");
+/*FTR.setAttribute("src", "./js/footer.js");*/
 
 
 
