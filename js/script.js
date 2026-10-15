@@ -26,6 +26,7 @@ const TABTITLE = document.createElement("title");
 const HEADER = document.querySelector("header");
 const MENULIST = document.createElement("ul");
 const NAVBAR = document.createElement("nav");
+const TESTTABLE = ["home", "stats", "form"];
 
 // I.5 footer
 
@@ -135,14 +136,14 @@ HEADER.appendChild(NAVBAR);
 HEADER.append(modeButton);
 NAVBAR.appendChild(MENULIST);
 
-while (i<2){
+while (i<TESTTABLE.length){
 	const LISTITEM = document.createElement("li");
 	const MENULINK = document.createElement("a");
 	navlink = "./" + TESTTABLE[i] + ".html"; 
 	MENULIST.appendChild(LISTITEM);
 	LISTITEM.appendChild(MENULINK);
 	MENULINK.setAttribute("href", navlink);
-	MENULINK.innerHTML = "TEST " + i;
+	MENULINK.innerHTML = TESTTABLE[i];
 	i++;
 } 
 
