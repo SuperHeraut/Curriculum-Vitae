@@ -2,3 +2,8 @@ body {
 	background-color: #ffe080ff;
 	color: #000000ff;
 }
+
+#nightModeButton{
+	background-color: #00c0ffff;
+	border-color: #000000ff;
+}
