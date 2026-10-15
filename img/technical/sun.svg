@@ -237,13 +237,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="14.142136"
-     inkscape:cx="9.0156112"
+     inkscape:cx="8.9449005"
      inkscape:cy="13.470384"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1009"
+     inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -470,7 +470,7 @@
        id="g5991-7"
        style="fill:#ffc001;fill-opacity:1;stroke:#806000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       style="opacity:1;fill:none;stroke:#ffc000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffc000;stroke:#ffc000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        d="m 4631.4452,-4179.6115 -5.0067,-5.0067 m -4.417,10.6636 h 7.0806 m 2.3431,5.6569 -5.0067,5.0067 m 10.6636,4.417 v -7.0806 m 5.6569,-2.3431 5.0067,5.0067 m 4.417,-10.6636 h -7.0806 m -2.3431,-5.6569 5.0067,-5.0067 m -10.6636,-4.417 v 7.0806 m 6,8 c 0,3.3137 -2.6863,6 -6,6 -3.3137,0 -6,-2.6863 -6,-6 0,-3.3137 2.6863,-6 6,-6 3.3137,0 6,2.6863 6,6 z"
        id="path7"
        sodipodi:nodetypes="ccccccccccccccccssszs" />
