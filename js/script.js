@@ -71,6 +71,7 @@ modePic = document.createElement("img");
 modePic.setAttribute("src", "../img/technical/" + modeInner + ".svg");
 
 modeButton = document.createElement("button");
+modeButton.setAttribute("id", "nightModeButton");
 modeButton.setAttribute("onclick", "nightmode()");
 modeButton.append(modePic);
 
